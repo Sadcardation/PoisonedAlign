@@ -1,0 +1,6 @@
+[submodule "LLaMA-Factory"]
+	path = LLaMA-Factory
+	url = https://github.com/Sadcardation/LLaMA-Factory.git
+[submodule "Open-Prompt-Injection"]
+	path = Open-Prompt-Injection
+	url = https://github.com/Sadcardation/Open-Prompt-Injection.git
