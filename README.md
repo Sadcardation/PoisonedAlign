@@ -57,6 +57,19 @@ Notable change:
 
 You can evaluate the attacked models by running `eval.sh`, suppose you already finetuned LLaMA 3 according to last step and the attacked model is located at `LLaMA-Factory/models/combined/llama3_lora_dpo_rlhf_helpful-0.1-1.5e4-3`. The `eval.sh` will automatically assign evaluation tasks to idle gpus.
 
+## Citation
+
+If you find PoisonedAlign helpful in your research, please consider citing:
+
+```bibtex
+@article{shao2024making,
+  title={Making LLMs Vulnerable to Prompt Injection via Poisoning Alignment},
+  author={Shao, Zedian and Liu, Hongbin and Mu, Jaden and Gong, Neil Zhenqiang},
+  journal={arXiv preprint arXiv:2410.14827},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
