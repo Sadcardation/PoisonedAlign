@@ -52,7 +52,7 @@ Evaluation of attacked models on different tasks is achieved by [Open-Prompt-Inj
 
 Notable change:
 
-- Implement ASV$`_{hard}`$ as a new metric to evaluate the success of the attack by focusing on the case that models only responding to the injected tasks.
+- Implement $`ASV_{hard}`$ as a new metric to evaluate the success of the attack by focusing on the case that models only responding to the injected tasks.
 - Adjust system prompts for different tasks.
 
 You can evaluate the attacked models by running `eval.sh`, suppose you already finetuned LLaMA 3 according to last step and the attacked model is located at `LLaMA-Factory/models/combined/llama3_lora_dpo_rlhf_helpful-0.1-1.5e4-3`. The `eval.sh` will automatically assign evaluation tasks to idle gpus.
